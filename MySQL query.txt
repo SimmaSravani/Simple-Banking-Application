@@ -1,0 +1,9 @@
+
+
+Account holder details table query:
+
+
+
+create table Bankaccounts2(accno int not null,primary key(accno),
+                           firstn varchar(23) not null, lastn varchar(23) not null , gender char not null,
+                           age int , phonen varchar(12) , balance int ,address varchar(100));
